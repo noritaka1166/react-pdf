@@ -24,7 +24,7 @@
     "@babel/preset-react": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
     "@types/node": "*",
-    "babel-loader": "^9.0.1",
+    "babel-loader": "^10.1.1",
     "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^6.0.0",
     "html-webpack-plugin": "^5.1.0",
