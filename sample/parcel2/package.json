@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "yarn copy && parcel build index.html --public-url ./",
-    "copy": "yarn copy-cmaps && yarn copy-standard-fonts",
+    "copy": "yarn copy-cmaps && yarn copy-standard-fonts && yarn copy-wasm",
     "copy-cmaps": "node ./scripts/copy-cmaps.ts",
     "copy-standard-fonts": "node ./scripts/copy-standard-fonts.ts",
     "copy-wasm": "node ./scripts/copy-wasm.ts",
